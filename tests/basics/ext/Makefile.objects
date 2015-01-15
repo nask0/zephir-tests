@@ -1,0 +1,48 @@
+basics.lo: /home/nask0/src/git/zephir-tests/tests/basics/ext/basics.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/nask0/src/git/zephir-tests/tests/basics/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/nask0/src/git/zephir-tests/tests/basics/ext/basics.c -o basics.lo 
+kernel/main.lo: /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/main.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/nask0/src/git/zephir-tests/tests/basics/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/main.c -o kernel/main.lo 
+kernel/memory.lo: /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/memory.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/nask0/src/git/zephir-tests/tests/basics/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/memory.c -o kernel/memory.lo 
+kernel/exception.lo: /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/exception.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/nask0/src/git/zephir-tests/tests/basics/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/exception.c -o kernel/exception.lo 
+kernel/hash.lo: /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/hash.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/nask0/src/git/zephir-tests/tests/basics/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/hash.c -o kernel/hash.lo 
+kernel/debug.lo: /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/debug.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/nask0/src/git/zephir-tests/tests/basics/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/debug.c -o kernel/debug.lo 
+kernel/backtrace.lo: /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/backtrace.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/nask0/src/git/zephir-tests/tests/basics/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/backtrace.c -o kernel/backtrace.lo 
+kernel/object.lo: /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/object.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/nask0/src/git/zephir-tests/tests/basics/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/object.c -o kernel/object.lo 
+kernel/array.lo: /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/array.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/nask0/src/git/zephir-tests/tests/basics/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/array.c -o kernel/array.lo 
+kernel/extended/array.lo: /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/extended/array.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/nask0/src/git/zephir-tests/tests/basics/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/extended/array.c -o kernel/extended/array.lo 
+kernel/string.lo: /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/string.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/nask0/src/git/zephir-tests/tests/basics/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/string.c -o kernel/string.lo 
+kernel/fcall.lo: /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/fcall.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/nask0/src/git/zephir-tests/tests/basics/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/fcall.c -o kernel/fcall.lo 
+kernel/require.lo: /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/require.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/nask0/src/git/zephir-tests/tests/basics/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/require.c -o kernel/require.lo 
+kernel/file.lo: /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/file.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/nask0/src/git/zephir-tests/tests/basics/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/file.c -o kernel/file.lo 
+kernel/operators.lo: /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/operators.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/nask0/src/git/zephir-tests/tests/basics/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/operators.c -o kernel/operators.lo 
+kernel/concat.lo: /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/concat.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/nask0/src/git/zephir-tests/tests/basics/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/concat.c -o kernel/concat.lo 
+kernel/variables.lo: /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/variables.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/nask0/src/git/zephir-tests/tests/basics/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/variables.c -o kernel/variables.lo 
+kernel/filter.lo: /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/filter.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/nask0/src/git/zephir-tests/tests/basics/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/filter.c -o kernel/filter.lo 
+kernel/iterator.lo: /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/iterator.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/nask0/src/git/zephir-tests/tests/basics/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/iterator.c -o kernel/iterator.lo 
+kernel/exit.lo: /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/exit.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/nask0/src/git/zephir-tests/tests/basics/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/nask0/src/git/zephir-tests/tests/basics/ext/kernel/exit.c -o kernel/exit.lo 
+basics/base.lo: /home/nask0/src/git/zephir-tests/tests/basics/ext/basics/base.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/nask0/src/git/zephir-tests/tests/basics/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/nask0/src/git/zephir-tests/tests/basics/ext/basics/base.zep.c -o basics/base.lo 
+$(phplibdir)/basics.la: ./basics.la
+	$(LIBTOOL) --mode=install cp ./basics.la $(phplibdir)
+
+./basics.la: $(shared_objects_basics) $(BASICS_SHARED_DEPENDENCIES)
+	$(LIBTOOL) --mode=link $(CC) $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) $(LDFLAGS) -o $@ -export-dynamic -avoid-version -prefer-pic -module -rpath $(phplibdir) $(EXTRA_LDFLAGS) $(shared_objects_basics) $(BASICS_SHARED_LIBADD)
+
