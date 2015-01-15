@@ -1,2 +1,2 @@
-# zephyr-tests
+# Zephir tests
 Repository to play and learn Zephir language (http://zephir-lang.com/)
